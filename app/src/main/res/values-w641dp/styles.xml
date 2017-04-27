@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    // Universal Versions Below.....................................................................
+
+    <style name="cardViewLinear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/weight0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/sadsheldon</item>
+        <item name="android:contentDescription">@string/contentSheldon</item>
+    </style>
+
+    // Landscape Versions Below.....................................................................
+
+    <style name="bottomViewL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin32</item>
+        <item name="android:layout_marginRight">@dimen/margin32</item>
+        <item name="android:layout_marginBottom">@dimen/margin12</item>
+        <item name="android:layout_marginTop">@dimen/margin8</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="buttonBottomL">
+        <item name="android:layout_width">@dimen/weight0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="questionNoL">
+        <item name="android:layout_width">@dimen/weight0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/textSize32</item>
+    </style>
+
+    <style name="cardViewL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_above">@id/bottomView</item>
+        <item name="android:layout_marginLeft">@dimen/margin32</item>
+        <item name="android:layout_marginRight">@dimen/margin32</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:layout_marginTop">@dimen/margin16</item>
+    </style>
+
+    <style name="topicL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">@dimen/padding8</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="questionTextL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding8</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+    </style>
+
+    <style name="lineL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lineHeight1</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+    </style>
+
+    <style name="radioGroupL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin24</item>
+        <item name="android:layout_marginRight">@dimen/margin16</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="radioButtonL">
+        <item name="android:layout_width">@dimen/weight0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/padding8</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+    </style>
+
+    <style name="editTextL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:layout_marginRight">@dimen/margin24</item>
+        <item name="android:layout_marginLeft">@dimen/margin24</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+    </style>
+
+    <style name="checkLinearL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/margin32</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="checkBoxL">
+        <item name="android:layout_width">@dimen/weight0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/padding8</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+    </style>
+
+    <style name="youreDoneL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/padding12</item>
+        <item name="android:paddingTop">@dimen/padding12</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/textSize32</item>
+    </style>
+
+    <style name="cardViewDoneL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_above">@id/bottomView</item>
+        <item name="android:layout_marginLeft">@dimen/margin32</item>
+        <item name="android:layout_marginRight">@dimen/margin32</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+    </style>
+</resources>

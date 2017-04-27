@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">QWhiz</string>
+
+    <string name="questionNo1">Question 1</string>
+    <string name="questionNo2">Question 2</string>
+    <string name="questionNo3">Question 3</string>
+    <string name="questionNo4">Question 4</string>
+    <string name="youreDone">And You"'"re Done!</string>
+
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="grade">Grade</string>
+    <string name="tryAgain">Try Again</string>
+
+    <string name="question1">Which Planet Has the Most Moons?</string>
+    <string name="question2">Who was the first person to set foot on the Moon?</string>
+    <string name="question3">Which Planet spins backwards relative to the others?</string>
+    <string name="question4">Which Planets Have Rings around Them?</string>
+
+    <string name="topic">Our Solar System</string>
+
+    <string name="answerQ1">Jupiter</string>
+    <string name="answerQ3">Venus</string>
+    <string name="answer1Q4">Saturn</string>
+    <string name="answer2Q4">Jupiter</string>
+    <string name="answer3Q4">Uranus</string>
+    <string name="answer4Q4">Neptune</string>
+
+    <string name="option1Q1">Mars</string>
+    <string name="option2Q1">Earth</string>
+    <string name="option3Q1">Venus</string>
+    <string name="option1Q3">Mercury</string>
+    <string name="option2Q3">Pluto</string>
+    <string name="option3Q3">Eris</string>
+    <string name="hint">"It's a conspiracy!"</string>
+
+    <string name="contentDescription">Photo of Solar System</string>
+    <string name="contentSheldon">Photo of Sheldon Cooper from the television show "The Big Bang Theory"</string>
+
+    <string name="scoreFail">In an alternate Universe, your answers would have been correct! But, in this one you will have to try again.</string>
+    <string name="perfectScore">Congratulations! You have mastered our Solar System!</string>
+
+    <string name="youScore">You scored" "</string>
+    <string name="outOf">" "out of 4</string>
+</resources>

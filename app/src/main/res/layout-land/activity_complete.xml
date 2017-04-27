@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.android.qwhiz.CompleteActivity">
+
+    <TextView android:id="@+id/andYoureDone"
+        android:text="@string/youreDone"
+        android:layout_alignParentTop="true"
+        style="@style/youreDoneL" />
+
+    <LinearLayout android:id="@+id/bottomView"
+        style="@style/bottomViewL" >
+        <Button android:id="@+id/tryAgain"
+            android:text="@string/tryAgain"
+            android:background="@drawable/button"
+            android:onClick="tryAgain"
+            style="@style/buttonBottomL" />
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        style="@style/cardViewDoneL"
+        android:layout_below="@id/andYoureDone">
+        <LinearLayout
+            style="@style/cardViewLinear">
+            <ImageView android:id="@+id/sheldonImage"
+                style="@style/image" />
+            <TextView android:id="@+id/resultText"
+                android:text="@string/scoreFail"
+                style="@style/questionTextL"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
